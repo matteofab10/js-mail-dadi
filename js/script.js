@@ -19,18 +19,14 @@ let emailValida = false;
 for (let i=0; i < emailList.length; i++){
   
   if(emailList[i] === email){
-    console.log('trovato');
+    console.log('valida');
     emailValida = true;
   }
 }
 
 if (emailValida == true) {
-  console.log('puoi entrare');
+  console.log('puoi accedere');
 }else{
-  console.log('non puoi entrare');
+  console.log('non puoi accedere');
 }
-
-// document.getElementById('esito').innerHTML =
-
-
 
