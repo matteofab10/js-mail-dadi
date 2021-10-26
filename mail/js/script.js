@@ -25,12 +25,12 @@ for (let i=0; i < emailList.length; i++){
 }
 
 if (emailValida == true) {
-  // stampare accesso
+  document.getElementById('output').innerHTML = `
+  La tua email è valida, puoi accedere`;
   console.log('puoi accedere');
 }else{
-  // stampare non accesso
+  document.getElementById('output').innerHTML = `
+  La tua email non è valida, non puoi accedere`;
   console.log('non puoi accedere');
 }
-
-// stampare esito accesso
 
