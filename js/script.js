@@ -25,8 +25,12 @@ for (let i=0; i < emailList.length; i++){
 }
 
 if (emailValida == true) {
+  // stampare accesso
   console.log('puoi accedere');
 }else{
+  // stampare non accesso
   console.log('non puoi accedere');
 }
+
+// stampare esito accesso
 
